@@ -1,4 +1,4 @@
-# packagedrone
+# Package Drone
 
 Image of [Eclipse Package Drone](https://packagedrone.org/) artifact repository.
 
