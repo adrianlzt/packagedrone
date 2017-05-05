@@ -15,7 +15,7 @@ RUN apt-get -q install -y openjdk-8-jre-headless
 
 
 RUN add-apt-key -k keyserver.ubuntu.com 320E6224 &&\
-    add-apt-repository "deb http://download.eclipse.org/package-drone/release/current/ubuntu package-drone default" &&\
+    add-apt-repository "deb http://download.eclipse.org/package-drone/release/current/ubuntu package-drone default"
 
 EXPOSE 8080
 
@@ -24,5 +24,6 @@ VOLUME ["/var/lib/package-drone-server/storage"]
 CMD ["/usr/lib/package-drone-server/instance/server"]
 
 ENV PACKAGEDRONE_VERSION 0.14.1
+
 RUN apt-get -q update &&\
     apt-get -q install -y org.eclipse.packagedrone.server=${PACKAGEDRONE_VERSION}
