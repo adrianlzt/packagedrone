@@ -1,4 +1,5 @@
 # Package Drone
+[![](https://img.shields.io/badge/Eclipse%20Package%20Drone-0.14.1-green.svg)](https://projects.eclipse.org/projects/technology.package-drone/releases/0.14.1 'Package Drone')
 
 Image of [Eclipse Package Drone](https://packagedrone.org/) artifact repository.
 
